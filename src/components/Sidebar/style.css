@@ -1,0 +1,51 @@
+.sidebar__container {
+  width: 27%;
+}
+.sidebar__header {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  color: #565673;
+}
+.profileimg__container {
+  width: 100%;
+}
+.profileimg__container img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}
+.personalBio {
+  color: #565673;
+  font-weight: 300;
+  font-size: 14px;
+}
+.recentPost h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6c6c6c;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.recentPost {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+.recentPost span {
+  font-size: 10px;
+  color: #6c6c6c;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.recentPosts {
+  padding: 20px 0;
+}
+.recentPosts a {
+  text-decoration: none;
+}
+.recentPosts a:hover h3 {
+  color: #333;
+}

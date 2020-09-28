@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.header__menu a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #565673;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.header__menu a:hover {
+  color: #5f9ea0;
+}
+.social-icons ul {
+  display: flex;
+  list-style: none;
+}
+.social-icons ul li {
+  margin-left: 20px;
+  font-size: 17px;
+  margin-top: -10px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.social-icons ul li:hover {
+  transform: scale(1.08);
+}
